@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Lato-Heavy.woff2' ;
+    src: ('./Fonts/Lato-Heavy.woff2');
+}
+
+body {
+    background-color: #282828;
+    text-align: center;
+}
+
+header {
+    font-family: 'Lato-Heavy.woff2', sans-serif;
+    font-size: smaller;
+}
+
+#img-logo {
+    height: 25px;  
+}
+
+#Logo {
+    display: inline-block;
+}
+
+#Login {
+    color: white;
+}
+
+#Form {
+    color: white;
+}
