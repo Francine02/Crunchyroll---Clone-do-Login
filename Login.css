@@ -4,16 +4,18 @@
 }
 
 body {
-    background-color: #282828;
-    text-align: center;
+    background-image: url("./Img/background.jpg");
+    color: white;
 }
 
 header {
+    text-align: center;
     font-family: 'Lato-Heavy.woff2', sans-serif;
     font-size: smaller;
+    background-color: #23252b;
 }
 
-#img-logo {
+#Img-logo {
     height: 25px;  
 }
 
@@ -21,10 +23,41 @@ header {
     display: inline-block;
 }
 
-#Login {
+h2, h3 {
+    text-align: center;
     color: white;
 }
 
 #Form {
     color: white;
+    border: solid #23252b;
+    background-color: #23252b;
+    width: 430px;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+#Container {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #ff8533;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+ul {
+    display: inline-block;
+    text-align: end;
+    #a0a0a0
 }
